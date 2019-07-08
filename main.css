@@ -5,7 +5,10 @@
     margin: 0;
     padding: 0;
     background-color: #FFFFFF;
+    
+    
 }
+
 
 li, a {
     font-family: "Montserrat", sans-serif;
@@ -20,6 +23,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+ 
+   width: 100%;
+   max-width: 90rem;
+   margin: 0 auto;
+   background-color: var(--background-color-one);
+   min-height: 10rem;
+   box-sizing: border-box;
 }
 
 .logo {
@@ -58,6 +68,9 @@ header {
 }
 
 .myimage {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
 }
