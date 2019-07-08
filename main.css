@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #FFFFFF;   
+    background-color: #FFFFFF;
 }
 
 li, a {
@@ -24,7 +24,7 @@ header {
 
 .logo {
     cursor:pointer;
-    margin-right:auto;
+
 }
 
 .nav_links {
@@ -44,12 +44,15 @@ header {
     color: black;
 }
 
-._logo li  {
-    display: inline-block;
-    justify-content: start;
-    text-align: left;
+._logo div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 ._logo a {
-    transition: all 0.3s ease 0s; 
+    transition: all 0.3s ease 0s;
 }
