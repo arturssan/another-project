@@ -1,0 +1,19 @@
+{
+  "name": "another-project",
+  "version": "1.0.0",
+  "description": "Hello!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturssan/another-project.git"
+  },
+  "author": "Arturs Strazdins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arturssan/another-project/issues"
+  },
+  "homepage": "https://github.com/arturssan/another-project#readme"
+}
